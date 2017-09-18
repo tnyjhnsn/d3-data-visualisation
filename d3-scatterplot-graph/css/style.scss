@@ -1,0 +1,57 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,600';
+
+html {
+	font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: 300;
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+.chart {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.no-dope {
+	fill: #000000;
+}
+
+.dope {
+	fill: #ae0000;
+}
+
+.title {
+	font-size: 18px;
+}
+
+.desc {
+	width: 100%;
+	padding: 5px;
+	white-space: pre;
+}
+
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	width: 150px;
+	padding: 5px;
+	background: #111111;
+	color: #ffffff;
+	border: 0px;
+	border-radius: 5px;
+	pointer-events: none;
+}
+
+.label, .time {
+	font-weight: 600;
+	text-anchor: middle;
+}
+
+.legend {
+	font-weight: 600;
+}

@@ -1,0 +1,40 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,600";
+html {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 300; }
+
+body {
+  background-color: #f5f5f5; }
+
+.chart {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 5px;
+  background: #111111;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  pointer-events: none; }
+
+.label {
+  font-weight: 600;
+  text-anchor: middle; }
+
+.title {
+  font-size: 24px; }
+
+.sub-title {
+  font-weight: 300;
+  font-size: 14px; }
+
+.temp {
+  font-weight: 600; }
+
+/*# sourceMappingURL=style.css.map */
